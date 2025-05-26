@@ -1,0 +1,69 @@
+*{
+              font-family: "Plus Jakarta Sans", sans-serif;
+              margin: 0;
+              padding: 0;
+              /* border: 1px solid red; */
+
+        }
+ body{
+            min-height: 100vh;
+            background-image: linear-gradient(#FFFFFF,#EBDCFF);
+        }
+.bnr-btn1:hover{background-color: rgb(84, 128, 247);}
+.bnr-btn2:hover{background-color: #A8A8A8;}
+.banner{
+    background-color:white;
+    /* margin-top: 100px;
+    margin-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto; */
+    margin: 100px auto 130px auto;
+    display: flex;
+    width: 75.45%;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #872bff65;
+    border-radius: 40px;
+    padding: 20px 30px;
+    background-image: url(../Assests/images/hero-bg.png);
+}
+.banner-text{
+    width: 100%;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.banner-text h1 span{
+    color: #F411CF;
+}
+.banner-text p{
+    font-weight: medium;
+    font-size: 18px;
+    color: #A8A8A8;
+    margin-bottom: 36px;
+}
+.bnr-btn1{
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.bnr-btn2{
+     background-color: white;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 14;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
