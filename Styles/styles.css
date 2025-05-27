@@ -11,18 +11,20 @@
         }
 .bnr-btn1:hover{background-color: rgb(84, 128, 247);}
 .bnr-btn2:hover{background-color: #A8A8A8;}
+.spot-btn:hover{background-color: rgb(84, 128, 247);}
+.cnt-btn:hover{background-color: rgb(84, 128, 247);}
 .banner{
     background-color:white;
     /* margin-top: 100px;
     margin-bottom: 120px;
     margin-right: auto;
     margin-left: auto; */
-    margin: 100px auto 130px auto;
+    margin: 100px auto 120px auto;
     display: flex;
     width: 75.45%;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid #872bff65;
+    border: 2px solid #c9b6e265;
     border-radius: 40px;
     padding: 20px 30px;
     background-image: url(../Assests/images/hero-bg.png);
@@ -67,3 +69,150 @@
     
 
 }
+
+.heading-content{
+    text-align: center;
+}
+.heading-content h4{
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2.2px;
+}
+.heading-content h2{
+    color: black;
+    font-weight: bold;
+    font-size: 44px;
+    padding-top: 12px;
+    margin-bottom: 60px;
+}
+.service,.country-container, .review-container{
+    /* border: 2px solid tomato ; */
+    width: 75.45%;
+    margin: 0px auto 120px auto;
+}
+
+.service-card{
+    /* border: 2px solid tomato ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 350px;
+    height: 450px;
+    border: 2px solid rgb(230, 219, 219);
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+.card img{
+    padding-top: 80px;
+}
+.card h2{
+    padding-top: 25px;
+    
+}
+.card p{
+    padding-top: 30px;
+    color: #A8A8A8;
+}
+
+.spot-card{
+    width: 75.45%;
+    margin: 0px auto 120px auto;
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 48px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.spot-card img{
+    padding-right: 32px;
+    text-align: center;
+}
+.spot-text h2{
+    padding-bottom: 12px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.spot-text img{
+    padding-bottom: 12px;
+}
+.spot-text p{
+    color: #0E0E0E;
+    font-size: 16px;
+   padding-bottom: 32px;
+}
+
+.spot-text button{
+  background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.countries{
+  
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+    
+}
+.country-name{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 15px;
+}
+.cnt-btn:hover{
+
+}
+.country-container button{
+   background-color: cadetblue;
+   margin-left: 45%;
+   background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 60px;
+    
+}
+#cardgap{
+    margin-bottom: 60px;
+}
+.review-card{
+    background-color: white;
+    padding: 24px;
+    text-align: center;
+    border-radius: 10px;
+
+   
+   
+    
+    
+    
+}
+.review-card p{
+    margin-bottom: 1px;
+}
+.review-card h3{
+    margin-top: 40px;
+}
+.review-card img{
+    margin-top:20px;
+    opacity: 50%;
+}
+
+
