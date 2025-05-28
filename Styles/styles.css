@@ -29,6 +29,10 @@
     padding: 20px 30px;
     background-image: url(../Assests/images/hero-bg.png);
 }
+
+.img{
+    width: 100%;
+}
 .banner-text{
     width: 100%;
 }
@@ -66,10 +70,14 @@
     font-size: 14;
     font-weight: bold;
     cursor: pointer;
-    
-
 }
 
+.banner-img{
+    width: 50%;
+}
+.banner-img image{
+    width: 100%;
+}
 .heading-content{
     text-align: center;
 }
@@ -161,6 +169,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-align: center ;
     
 
     
@@ -173,9 +182,7 @@
     gap: 20px;
     border-radius: 15px;
 }
-.cnt-btn:hover{
 
-}
 .country-container button{
    background-color: cadetblue;
    margin-left: 45%;
@@ -213,6 +220,25 @@
 .review-card img{
     margin-top:20px;
     opacity: 50%;
+}
+.footer{
+    background-color:white;
+}
+.footer p{
+    margin-left: 123px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-img{
+    margin-right: 123px;
+    display: flex;
+    gap: 32px;
 }
 
 
